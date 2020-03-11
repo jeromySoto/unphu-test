@@ -83,7 +83,7 @@ class FormUser extends Component {
 
                         var products = [
                             {
-                                id: that.state.clientslength + 1,
+                                id: AllClients.length + 1,
                                 Nombres: client.Nombres,
                                 Primerapellido: client.Primerapellido,
                                 Segundoapellido: client.Segundoapellido,
