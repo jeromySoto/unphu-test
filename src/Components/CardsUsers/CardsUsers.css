@@ -1,0 +1,44 @@
+.card {
+    width: 20vw;
+    height: -moz-fit-content;
+    height: fit-content;
+    max-width: 15rem;
+    max-height: 15rem;
+    background-color: white;
+    margin: 1rem;
+    border-radius: 2rem;
+    box-shadow: 0px 3px 6px 0px rgba(84, 84, 84, 1);
+    padding: 1rem;
+    color: black;
+}
+
+.cardTittle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.card_userIcon {
+    display: flex;
+    width: 20%;
+    height: auto;
+    border-radius: 5rem;
+    -webkit-box-shadow: 0px 2px 3px 0px rgba(148, 148, 148, 1);
+    -moz-box-shadow: 0px 2px 3px 0px rgba(148, 148, 148, 1);
+    box-shadow: 0px 2px 3px 0px rgba(148, 148, 148, 1);
+}
+
+.card_username {
+    margin-left: 1rem;
+}
+
+.cardBody {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+.cardBody_UserID {
+    text-align: center;
+    margin-top: 2rem;
+}

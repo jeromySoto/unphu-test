@@ -1,0 +1,142 @@
+#FormUserComponent {
+  top: 0;
+  left: 0;
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  z-index: 1000 !important;
+}
+
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+  #FormUserComponent {
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
+    background: -webkit-linear-gradient(-45deg, rgba(138, 191, 166, 0.20) 0%, rgba(86, 140, 115, 0.20) 100%);
+  }
+}
+
+.FormUserComponent_Container {
+  width: 80%;
+  height: 85%;
+  background-color: #568C73;
+  border-radius: 1.5rem;
+  -webkit-box-shadow: 0px 3px 16px 0px rgba(81, 161, 124, 1);
+  -moz-box-shadow: 0px 3px 16px 0px rgba(81, 161, 124, 1);
+  box-shadow: 0px 3px 16px 0px rgba(81, 161, 124, 1);
+  padding: 1rem;
+  z-index: 1100 !important;
+}
+
+.FormUser_header {
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.FormUser_close {
+  max-width: 30px;
+}
+
+.FormUser_body {
+  display: flex;
+  flex-direction: row;
+  height: inherit;
+  overflow: scroll;
+}
+
+.FormUser_body::-webkit-scrollbar {
+  width: 5px;
+  height: 0px;
+}
+
+.FormUser_body::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+
+.FormUser_body::-webkit-scrollbar-thumb {
+  background: #e1e1e1;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+
+.FormUser_body::-webkit-scrollbar-thumb:hover {
+  background: #ffffff;
+}
+
+.FormUser_body::-webkit-scrollbar-thumb:active {
+  background: #05401F;
+}
+
+.FormUser_body::-webkit-scrollbar-track {
+  background: #ffffff;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+
+.FormUser_body::-webkit-scrollbar-track:hover {
+  background: #ffffff;
+}
+
+.FormUser_body::-webkit-scrollbar-track:active {
+  background: #ffffff;
+}
+
+.FormUser_body::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+.FormUser_body_row {
+  width: fit-content;
+  margin-right: 5rem;
+}
+
+.FormUser_Text {
+  font-size: 1.4rem;
+  font-weight: 400;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+.FormUser_Input {
+  color: white;
+  display: flex;
+  background-color: transparent;
+  border-radius: 3rem;
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+  height: 1.5rem;
+  width: 15vw;
+  margin-bottom: 1rem;
+  box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
+  padding-left: 1rem;
+}
+
+.confirmblock {
+  display: flex;
+  flex-direction: row;
+  width: 10rem;
+  justify-content: space-between;
+  margin-left: auto;
+  position: relative;
+  bottom: 1rem;
+  right: 1rem;
+}
+
+.confirmblock>div>img {
+  width: 2rem;
+  height: 2rem;
+  background-color: white;
+  padding: 5px;
+  border-radius: 2rem;
+  -webkit-box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
+  -moz-box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
+}

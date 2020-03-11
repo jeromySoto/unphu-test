@@ -1,0 +1,104 @@
+.Login_Main_container {
+    width: 80vw;
+    height: 80vh;
+    position: absolute;
+    left: 10vw;
+    top: 10vh;
+    background-color: white;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: row;
+}
+
+#Login_Form_Container {
+    width: 40%;
+    height: 100%;
+    border-radius: 2rem 0 0 2rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #568C73;
+    color: white;
+}
+
+#Login_section_selector {
+    padding-top: 5rem;
+    border-style: solid;
+    border-width: 0;
+    border-bottom-width: 1px;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    font-size: 1.3rem;
+}
+
+.Login_section_selector_btn {
+    margin: 0px 1rem 0px;
+}
+
+.Login_section_selector_btn--active {
+    margin: 0px 1rem 0px;
+    border-style: solid;
+    border-width: 0;
+    border-bottom-width: 2px;
+}
+
+#Form_login {
+    flex-direction: column;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    align-content: center;
+    padding: 1rem;
+    display: flex;
+}
+
+
+#Form_login > p {
+    font-size: 1.2rem;
+
+}
+#Form_login > input{
+    background-color: white;
+    border-radius: 2rem;
+    border-style: hidden;
+    height: 2rem;
+    max-width: 15rem;
+    padding-left: 1rem;
+    font-size: 1.2rem;
+}
+#Form_login > button{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background-color: #05401F;
+    border-style: hidden;
+    width: fit-content;
+    height: fit-content;
+    font-size: 1.2rem;
+    color: white;
+    padding: 0.5rem 2rem;
+    border-radius: 2rem;
+}
+
+.Cuenta{
+    font-size: 0.9rem !important;
+    text-align: center;
+}
+
+#FormRegistrer_EnterBlock > button{
+    background-color: #05401F;
+    border-style: hidden;
+    width: fit-content;
+    height: fit-content;
+    font-size: 1.2rem;
+    color: white;
+    padding: 0.5rem 2rem;
+    border-radius: 2rem;
+}
+#FormRegistrer_EnterBlock {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
